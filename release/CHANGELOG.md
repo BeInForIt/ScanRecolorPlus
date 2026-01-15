@@ -2,6 +2,14 @@
 
 # 
 
+# \## v1.0.1
+
+# \- Rebuilt with proper and reproducible assembly references
+
+# \- No functional changes
+
+# 
+
 # \## v1.0.0
 
 # \- Initial release of ScanRecolorPlus

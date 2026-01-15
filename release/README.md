@@ -1,101 +1,85 @@
 # ScanRecolorPlus
 
-Advanced scan recolor mod for **Lethal Company**.
+Scan recolor mod for **Lethal Company**.
 
-This mod is based on the original **ScanRecolor**, but rewritten and extended to provide
-more visual control, animation, and customization — while keeping compatibility with the
-vanilla scan system.
+This mod is based on the original **ScanRecolor**, rewritten and extended to provide more
+control over scan visuals while remaining compatible with the vanilla scan system.
 
----
+## Important notice
 
-## ⚠️ IMPORTANT NOTICE (READ BEFORE USING)
+After creating a lobby or joining another lobby, the scan color may reset to the vanilla default.
 
-**After creating a lobby or connecting to another lobby, the scan color may reset to the vanilla default.**
+This is not a crash and does not mean the mod is unloaded.
 
-If this happens, **this is NOT a crash** and **the mod is still loaded**.
+### Temporary workaround
 
-### ✅ Temporary workaround (REQUIRED)
-Open the config and do **any one** of the following:
-- Toggle `General → Enabled` **OFF and ON**
-- OR change **any setting** (for example, change `Preset` and change it back)
+Open the config and perform any one of the following actions:
+- Toggle `General → Enabled` off and on
+- Change any setting (for example, change `Preset` and revert it)
 
-This will immediately re-apply the scan color.
+This immediately reapplies the scan color.
 
-⚠️ This is a known issue related to HUD re-initialization in the game.  
-🛠 It **may be fixed in a future update**.
+This is a known issue related to HUD re-initialization and may be addressed in a future update.
 
----
+## Features
 
-## ✨ Features
-
-- Full scan color customization
-- Presets + custom HEX / RGB / HSV colors
-- Animated scan effects:
+- Scan color customization
+- Presets and custom colors (HEX, RGB, HSV)
+- Optional animated effects:
   - Alpha pulse
   - Gradient color cycling
-- Randomized scan colors (per scan):
-  - Full random
+- Randomized scan colors:
+  - Fully random
   - Hue-only random
-  - Palette-based
+  - Palette-based random
 - Scan post-processing control:
-  - Vignette color & intensity
-  - Bloom tint & strength
-  - Scan line (dirt texture) recoloring
-- Works without hotkeys (config-based)
+  - Vignette color and intensity
+  - Bloom tint and strength
+  - Scan line texture recoloring
+- Configuration-based control (no hotkeys)
 
----
+## Presets
 
-## 🎨 Available Presets
+- Cyan
+- Green
+- Red
+- Purple
+- Amber
+- White
+- Pink
+- Default (vanilla)
 
-Cyan
-Green
-Red
-Purple
-Amber
-White
-Pink
-Default (vanilla)
-
-You can also use:
+Custom color formats:
 - HEX: `#RRGGBB` / `#RRGGBBAA`
 - CSV: `R,G,B` or `R,G,B,A`
 
----
+## Differences from original ScanRecolor
 
-## 🔄 Differences from the original ScanRecolor
-
-| Original ScanRecolor | ScanRecolorPlus |
-|---------------------|-----------------|
-| Simple static color | Animated & dynamic |
-| RGB only | Presets / RGB / HSV / HEX |
+| ScanRecolor | ScanRecolorPlus |
+|------------|-----------------|
+| Static color | Dynamic and animated |
+| RGB only | Presets, RGB, HSV, HEX |
 | No animation | Pulse, gradient, random |
-| Limited config | Full visual control |
-| Minimal HDRP control | Bloom, vignette, scan lines |
+| Limited configuration | Extended visual control |
+| Minimal post-processing | Bloom, vignette, scan lines |
 
-ScanRecolorPlus **does not replace** the scan system — it enhances it.
+ScanRecolorPlus enhances the existing scan system and does not replace it.
 
----
-
-## 🧪 Known Issues
+## Known issues
 
 - Scan color may reset after:
   - Creating a lobby
   - Joining another lobby
-- Requires manual config toggle to re-apply (see warning above)
+- Manual config change is required to reapply settings
 
----
+## Notes
 
-## 📌 Notes
-
-- This mod only affects **visual scan effects**
-- Safe to use in multiplayer (client-side)
+- Affects visual scan effects only
+- Client-side and multiplayer safe
 - No keybinds
 - No gameplay changes
 
----
-
-## ❤️ Credits
+## Credits
 
 - Original concept inspired by **ScanRecolor**
-- Rework, extensions, and stability fixes by **HoppinHauler**
-
+- Rewrite and extensions by **HoppinHauler**

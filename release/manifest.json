@@ -1,6 +1,6 @@
 {
   "name": "ScanRecolorPlus",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/BeInForIt/ScanRecolorPlus",
   "description": "Advanced scan recolor mod with presets, animation, gradients, and HDRP effects. Based on ScanRecolor.",
   "dependencies": [
